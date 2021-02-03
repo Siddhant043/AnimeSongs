@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:columnCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="4">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:onClick="playSound"
+            android:text="Attack On Titan"
+            android:textSize="10sp"
+            android:tag="attackontitan"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:onClick="playSound"
+            android:text="Tokyo Ghoul"
+            android:textSize="10sp"
+            android:tag="tokyoghoul"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:onClick="playSound"
+            android:text="Death Note"
+            android:textSize="10sp"
+            android:tag="deathnote"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:onClick="playSound"
+            android:text="My Hero Academia"
+            android:textSize="10sp"
+            android:tag="myheroacademia"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:onClick="playSound"
+            android:text="Demon Slayer"
+            android:textSize="10sp"
+            android:tag="demonslayer"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:onClick="playSound"
+            android:text="One Punch Man"
+            android:textSize="10sp"
+            android:tag="onepunchman"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:onClick="playSound"
+            android:text="Bleach"
+            android:textSize="10sp"
+            android:tag="bleach"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:onClick="playSound"
+            android:text="Naruto"
+            android:textSize="10sp"
+            android:tag="naruto"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+
+
+
+
+
+
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
